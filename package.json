@@ -1,0 +1,12 @@
+{
+  "name": "site-firma-202",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.50.3",
+    "dotenv": "^17.0.1"
+  },
+  "scripts": {
+    "import-users": "node back-end/js/importUsers.js"
+  }
+}

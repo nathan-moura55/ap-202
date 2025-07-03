@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Som que vê</title>
+    <link rel="stylesheet" href="./front-end/assets/css/index.css" />
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="cabecalho">
+            <img src="./front-end/assets/img/ap.PNG" alt="Ícone" class="icone" />
+            <h1 class="titulo">Login</h1>
+        </div>
+        <form class="login-form" id="login-form">
+            <input class="name" id="email" type="email" placeholder="Digite o e-mail" />
+            <input class="password" id="password" type="password" placeholder="Digite a senhas" />
+            <button class="submit" type="submit" id="submit">Entrar</button>
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+    <script>
+        window.supabase = supabase.createClient(
+            'https://zyvveydxfvkhanburhfx.supabase.co',
+            'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inp5dnZleWR4ZnZraGFuYnVyaGZ4Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1MTQ5MzMwNiwiZXhwIjoyMDY3MDY5MzA2fQ.tlFDjqzztxaPz82YbufyTPyDoEBQS1516pZjU56JCj8'
+        );
+    </script>
+    <script src="./front-end/assets/js/auth.js"></script>
+</body>
+
+</html>
