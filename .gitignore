@@ -1,0 +1,40 @@
+# Node.js dependencies
+node_modules/
+
+# Env files (NUNCA versionar chaves secretas)
+.env
+.env.*
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# IDEs e editores
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Build e dist
+dist/
+build/
+front-end/dist/
+back-end/dist/
+
+# Cache
+.cache/
+.next/
+out/
+coverage/
+
+# Teste
+__tests__/
+*.test.js
+*.spec.js
